@@ -88,31 +88,36 @@
 // var idade = prompt("Digite a sua idade:")
 // console.log(validaIdade(idade));
 
-function clicou() {
-    document.getElementById("agradecimento");
-    console.log(document.getElementById("agradecimento").innerHTML = "<br> Obrigado por clicar");
-}
-
-function redirecionar() {
-    window.open("https://github.com/marlonsj02/projetosDigitalInnovationOne");
-    // window.location.href = "https://github.com/marlonsj02/projetosDigitalInnovationOne";
-}
-
-function passouMouse(elemento) {
-    // document.getElementById("passouMouse").innerHTML = "Você passou o mouse!"
-    // alert("Trocar texto");
-    elemento.innerHTML = "Você passou o mouse!";
-}
-
-function voltar(elemento) {
-    // document.getElementById("passouMouse").innerHTML = "Você tirou o mouse!"
-    elemento.innerHTML = "Você tirou o mouse!";
-}
-
-// function load() {
-//     alert("Página carregada!");
+// function clicou() {
+//     document.getElementById("agradecimento");
+//     console.log(document.getElementById("agradecimento").innerHTML = "<br> Obrigado por clicar");
 // }
 
-function change(elemento) {
-    console.log(elemento.value)
-}
+// function redirecionar() {
+//     window.open("https://github.com/marlonsj02/projetosDigitalInnovationOne");
+//     // window.location.href = "https://github.com/marlonsj02/projetosDigitalInnovationOne";
+// }
+
+// function passouMouse(elemento) {
+//     // document.getElementById("passouMouse").innerHTML = "Você passou o mouse!"
+//     // alert("Trocar texto");
+//     elemento.innerHTML = "Você passou o mouse!";
+// }
+
+// function voltar(elemento) {
+//     // document.getElementById("passouMouse").innerHTML = "Você tirou o mouse!"
+//     elemento.innerHTML = "Você tirou o mouse!";
+// }
+
+// // function load() {
+// //     alert("Página carregada!");
+// // }
+
+// function change(elemento) {
+//     console.log(elemento.value)
+// }
+
+// var A = 11
+// var B = 7;
+// var X = A + B;
+// console.log("X = " + X);
