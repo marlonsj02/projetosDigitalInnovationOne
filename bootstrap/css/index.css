@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(165, 165, 165);
+}
+
+.navbar a img {
+    border: black 2px solid;
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.quemsomos {
+    background-color: blue;
+}
+
+.quemsomos img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.margin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parceiros {
+    background-color: aqua;
+    color: black;
+}
+
+.nomeParceiros {
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.servicos {
+    background-color: brown;
+}
+
+.programmingMobile p {
+margin-bottom: 63px;
+}
+
+.rodape {
+    background-color: yellow;
+    color: black;
+    padding: 1px;
+}
+
+.rodape p {
+    margin-top: 15px;
+    font-weight: bolder;
+}

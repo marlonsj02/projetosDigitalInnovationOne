@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando Bootstrap</title>
+
+    <!-- CSS DO BOOTSTRAP  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS DA PÁGINA INDEX  -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <a href="#" class="navbar-brand">
+            <img src="img/logo.png" alt="logo" width="180" height="70">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#quemSomos" class="nav-link">Quem Somos?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#parceiros" class="nav-link">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#servicos" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="quemSomos">
+        <div class="container-fluid text-center margin quemsomos">
+            <h3>Quem Somos?</h3>
+            <img class="rounded-circle" src="img/developer.jpg" alt="developer" height="400" width="400">
+            <h3>Somos um time comprometidos com os resultados.</h3>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3>Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="rounded-circle" src="img/ice.jpg" alt="Parceiro 1: IceBeats" width="100%"
+                            height="70%">
+                        <h3 class="nomeParceiros">IceBeats</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="rounded-circle" src="img/keyboard.jpg" alt="Parceiro 2: Articus Technology"
+                            width="100%" height="70%">
+                        <h3 class="nomeParceiros">Articus Technology</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="rounded-circle" src="img/logoSlack.jpg" alt="Parceiro 3: Slack" width="100%"
+                            height="70%">
+                        <h3 class="nomeParceiros">Slack</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>Curabitur ligula eros, tempor a dolor nec, fringilla iaculis massa. Vivamus luctus, diam et
+                            sollicitudin tincidunt,
+                            neque lectus porttitor diam, non malesuada lorem risus id enim. Aliquam erat volutpat.
+                            Aliquam purus ipsum, commodo sit
+                            amet suscipit vel, convallis eget felis. Ut efficitur consequat ex vel faucibus. Fusce massa
+                            enim, imperdiet sit amet
+                            libero et, rutrum pellentesque turpis. Donec erat erat, rutrum ac convallis vitae, lobortis
+                            eu nunc. Praesent gravida
+                            congue orci, eget vulputate orci semper et. Nullam tincidunt posuere nisl id congue.
+                        </p>
+                        <img src="img/programming.jpg" alt="1º Serviço: Programação Web" width="100%" height="50%">
+                    </div>
+                    <div class="col-sm-6 programmingMobile">
+                        <p>Vivamus sed bibendum mi. Suspendisse ultrices sodales dolor at convallis. Vestibulum at
+                            consectetur augue. Fusce
+                            porttitor vestibulum mauris, sed mattis mauris. Mauris venenatis velit non est maximus
+                            tristique. Cras rutrum
+                            ullamcorper ligula vitae luctus. Fusce aliquam pharetra risus, at aliquam sem varius vel.
+                            Sed lacinia facilisis erat vel
+                            accumsan. Aenean et condimentum dolor.
+                        </p>
+                        <img src="img/apps.jpg" alt="2º Serviço: Programação Mobile" width="100%" height="50%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" container-fluid text-center rodape">
+        <p>Desenvolvido por: Marlon Sant' Anna</p>
+    </footer>
+</body>
+
+</html>
