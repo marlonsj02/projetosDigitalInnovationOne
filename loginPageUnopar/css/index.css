@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(123, 255, 255, 0.474);
+}
+
+.container {
+    background-color: white;
+    width: 60%;
+    height: 52vmax;
+    margin-top: 10%;
+    border-radius: 2%;
+}
+
+.logoMarca {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+
+.logoMarca img {
+    margin-top: 7%;
+    width: 15%;
+    height: 6vmax;
+}
+
+.logoMarca p {
+    margin-top: 10%;
+    margin-left: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 4%;
+    transition: .5s ease all;
+}
+
+.linha {
+    border: 1px solid rgb(237, 237, 237);
+    width: 100%;
+}
+
+.loginPage button:hover {
+    border-color: blue;
+    border: 2px solid rgb(127, 178, 255) ;
+}
+
+.formLogin {
+    margin-top: 7%;
+}
+
+.input-group input {
+    width: 30px;
+}
+
+.formLogin form a {
+    color: rgb(48, 148, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 69%;
+}
+
+.form-check-label {
+    color: rgb(95, 95, 95);
+    margin-top: 3%;
+}
+
+.botaoAjuda a {
+    color: gray;
+}
+
+.botaoAjuda {
+    margin-left: 40%;
+    margin-top: 20%;
+}
