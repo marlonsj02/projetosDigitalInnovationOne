@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <!-- Font Awesome  -->
     <script src="https://kit.fontawesome.com/ab5b21b726.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Index  -->
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -20,13 +23,17 @@
             <img src="https://www.colaboraread.com.br/assets/logo-azul.png" alt="Logo">
             <p>| Colaborar</p>
             <div class="botaoAjuda">
-                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-question-circle"></i></a>
+                <a data-toggle="modal" data-target="#help"><i class="fa fa-question-circle"></i></a>
             </div>
         </div>
         <hr>
         <div class="loginPage">
-            <button type="button" class="btn btn-outline-primary">Login</button>
-            <button type="button" class="btn btn-outline-primary">Primeiro Acesso</button>
+            <a href="index.html">
+                <button type="button" class="btn">Login</button>
+            </a>
+            <a href="index2.html">
+                <button type="button" class="btn">Primeiro Acesso</button>
+            </a>
             <div class="linha"></div>
         </div>
         <div class="formLogin">
@@ -64,6 +71,43 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- Modals  -->
+    <!-- The Modal -->
+    <div class="modal" id="help">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+    
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4></h4>Colaborar - AVA</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+    
+                <!-- Modal body -->
+                <div class="modal-body">
+                    O Ambiente Virtual de Aprendizagem “COLABORAR”, tem por objetivo principal ser um espaço de construção do conhecimento,
+                    por meio do desenvolvimento de atividades educativas, mediadas pelo uso de Tecnologia de Informação e Comunicação,
+                    valorizando a interação e o trabalho colaborativo.
+                    <br><br>
+                    Aqui são desenvolvidas atividades de produção textual (portfolio), de interatividade síncrona e assíncrona (fórum, chat
+                    e mensagens), organizadas pelos professores e orientadas pelos tutores, para os alunos. Neste mesmo ambiente, você
+                    também poderá acessar a biblioteca digital como suporte pedagógico ao seu desempenho acadêmico.
+                    <br><br>
+                    Na área Acadêmica, você tem acesso a importantes informações sobre o andamento de sua situação acadêmica no decorrer do
+                    semestre letivo.
+                    <br><br>
+                    Um excelente trabalho!
+                </div>
+    
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Voltar ao login</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -98,16 +98,16 @@
 //     // window.location.href = "https://github.com/marlonsj02/projetosDigitalInnovationOne";
 // }
 
-// function passouMouse(elemento) {
-//     // document.getElementById("passouMouse").innerHTML = "Você passou o mouse!"
-//     // alert("Trocar texto");
-//     elemento.innerHTML = "Você passou o mouse!";
-// }
+function passouMouse(elemento) {
+    // document.getElementById("passouMouse").innerHTML = "Você passou o mouse!"
+    // alert("Trocar texto");
+    elemento.style.backgroundColor = "Red";
+}
 
-// function voltar(elemento) {
-//     // document.getElementById("passouMouse").innerHTML = "Você tirou o mouse!"
-//     elemento.innerHTML = "Você tirou o mouse!";
-// }
+function voltar(elemento) {
+    // document.getElementById("passouMouse").style.backgroundColor = "White"
+    elemento.style.backgroundColor = "White";
+}
 
 // // function load() {
 // //     alert("Página carregada!");

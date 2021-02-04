@@ -10,10 +10,11 @@ body {
 
 .container {
     background-color: white;
-    width: 60%;
-    height: 52vmax;
-    margin-top: 10%;
+    width: 35%;
+    height: 34vmax;
+    margin-top: 7%;
     border-radius: 2%;
+    /* margin-bottom: 10%; */
 }
 
 .logoMarca {
@@ -23,9 +24,9 @@ body {
 }
 
 .logoMarca img {
-    margin-top: 7%;
-    width: 15%;
-    height: 6vmax;
+    margin-top: 8%;
+    width: 13%;
+    height: 3vmax;
 }
 
 .logoMarca p {
@@ -40,6 +41,7 @@ body {
 .btn {
     margin-top: 4%;
     transition: .5s ease all;
+    border: 1px solid rgb(65, 147, 255);
 }
 
 .linha {
@@ -48,12 +50,13 @@ body {
 }
 
 .loginPage button:hover {
-    border-color: blue;
-    border: 2px solid rgb(127, 178, 255) ;
+    border-color: rgb(65, 147, 255);
+    border: 2px solid rgb(65, 147, 255);
+    background-color: rgb(240, 240, 240);
 }
 
 .formLogin {
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .input-group input {
@@ -63,7 +66,7 @@ body {
 .formLogin form a {
     color: rgb(48, 148, 255);
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 69%;
+    margin-left: 66%;
 }
 
 .form-check-label {
@@ -71,11 +74,13 @@ body {
     margin-top: 3%;
 }
 
-.botaoAjuda a {
-    color: gray;
-}
-
 .botaoAjuda {
     margin-left: 40%;
-    margin-top: 20%;
+    margin-top: 17%;
+    cursor: pointer;
+    color: rgb(114, 114, 114);
+}
+
+.modal-body {
+    text-align: justify;
 }
